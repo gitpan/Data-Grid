@@ -1,0 +1,31 @@
+---
+abstract: 'Data::Grid provides basic, incremental access to grid-shaped data.'
+author:
+  - 'Dorian Taylor, C<< <dorian at cpan.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: apache
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Data-Grid
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Data::Table: 1.54
+  File::MMagic: 1.27
+  IO::Scalar: 2.110
+  Spreadsheet::ParseExcel: 0.57
+  Spreadsheet::XLSX: 0.13
+  Text::CSV: 1.18
+  parent: 0.223
+resources:
+  license: http://apache.org/licenses/LICENSE-2.0
+version: 0.01_01
